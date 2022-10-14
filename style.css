@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+body{
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    background: hsl(210, 60%, 98%);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    cursor: pointer;
+   
+}
+
+
+.first{
+    width: 400px;
+    border-radius: 8px ;
+    background: hsl(0, 0%, 100%);
+    box-shadow: 0 0 1px 1px rgba(57, 57, 57, 0.032);
+    padding: 20px;
+}
+
+.header{
+    font-size: small;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Notification badge*/
+.read{
+    font-weight: 300;
+    font-size: xx-small;
+    color:  hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+
+.read:hover{
+    color:  hsl(1, 90%, 64%) ;
+}
+
+.container3{
+    margin-bottom: 8px;
+    border-radius: 5px;
+    padding: .1rem;
+    background: hsla(207, 52%, 96%, 0.806) ;
+    font-size: x-small;
+}
+
+.msg-container{
+    display: flex;
+   
+    margin-left: 10px ;
+    column-gap: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header2{
+    display: flex;
+    align-items: center;
+   
+}
+
+/* Name of the sender */
+
+.name{
+   white-space: nowrap;
+    display: inline ;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+/* Notification badge */
+
+.badge{
+    background: hsl(219, 85%, 26%) ;
+    padding: .5px 6px;
+    margin-left: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: x-small;
+}
+/* Hides the notification badge */
+.close{
+    visibility: hidden;
+    height: 0;
+}
+
+/*When message was sent*/
+.date{
+    margin-top: -11px;
+    font-size: xx-small;
+    color: hsl(219, 14%, 63%);
+}
+
+/* the profile picture */
+.picture{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* default setting */
+.msg-content{
+    visibility: hidden;
+    height: 0;
+ 
+ 
+}
+
+/* When user clicks on message */
+.open {
+    visibility: visible;
+    height: auto;
+    padding: .6rem;
+    color:  hsl(225, 2%, 47%);
+    border: 1px solid  hsl(219, 14%, 63%);
+    border-radius: 4px;
+    margin-left: 3rem ;
+ 
+}
+
+h5{
+    font-weight: 600;
+ 
+    color:  hsl(225, 2%, 47%);
+}
+
+#red-badge{
+    margin-top: -20px;
+    text-align: center;
+    margin-left: 2px ;
+    font-size: 5px;
+    color:  hsl(1, 90%, 64%);
+    
+}
+/* the red badge will disappear when this is added*/
+.disappear{
+    visibility: hidden;
+    height: 0;
+}
+
+
+/* chess Photo */
+.reacted{
+    margin-top: -4em ;
+    width: 30px;
+    float: right;
+   
+}
+
+.attribution a{
+     font-size: small;
+     text-decoration: none;
+}
+
+.attribution{
+    margin-top: 15px;
+}
